@@ -1,0 +1,9 @@
+.score-increment {
+    font-size: 0.8em;
+    animation: fadeOut 0.4s linear forwards;
+  }
+  
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }

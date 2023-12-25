@@ -1,0 +1,15 @@
+.rainbow {
+    background: red; /* デフォルトの背景色 */
+    animation: rainbow 3s linear infinite; /* アニメーションの設定 */
+  }
+  
+  @keyframes rainbow {
+    0% { background: red; }
+    14% { background: orange; }
+    28% { background: yellow; }
+    42% { background: lime; }
+    57% { background: blue; }
+    71% { background: indigo; }
+    85% { background: violet; }
+    100% { background: red; }
+  }
